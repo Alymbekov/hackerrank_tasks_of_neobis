@@ -15,5 +15,5 @@ def minion_games(string):
     elif kevin < stuart:
         print("Stuart", stuart)
     else:
-        print("You are code does not work !!!")
+        print("Draw")
 minion_games('BANANA')
