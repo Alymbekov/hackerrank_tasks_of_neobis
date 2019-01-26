@@ -9,12 +9,12 @@ class Complex(object):
         a = complex(self.real, self.imaginary)
         b = complex(no.real, no.imaginary)
         return Complex((a+b).real , (a+b).imag).__str__()
-        
+
     def __sub__(self, no):
         a = complex(self.real, self.imaginary)
         b = complex(no.real, no.imaginary)
         return Complex((a-b).real , (a-b).imag).__str__()
-        
+
     def __mul__(self, no):
         a = complex(self.real, self.imaginary)
         b = complex(no.real, no.imaginary)
@@ -40,7 +40,7 @@ class Complex(object):
             result = "%.2f+%.2fi" % (self.real, self.imaginary)
         else:
             result = "%.2f-%.2fi" % (self.real, abs(self.imaginary))
-        return result
+        return result #a
 
 if __name__ == '__main__':
     c = map(float, input().split())

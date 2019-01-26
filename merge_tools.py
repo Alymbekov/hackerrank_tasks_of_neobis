@@ -15,11 +15,11 @@
       #  acummulator = []
        # for y in result:
         #    if y not in acummulator:
-         #       acummulator.append(y)
+#         #       acummulator.append(y)
        # print(''.join(acummulator))
 
 #merge_the_tools('',3)
-def merge_the_tools(string, k):   
+def merge_the_tools(string, k):
     n = len(string)
     inc = k
     for i in range(0, n, inc):
